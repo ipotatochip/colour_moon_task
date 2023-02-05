@@ -10,7 +10,7 @@
 /* Home Page Banner Section */
 
 .banner{
-    background-image: url(/images/banner/image1.jpg);
+    background-image: url(../images/banner/image1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
