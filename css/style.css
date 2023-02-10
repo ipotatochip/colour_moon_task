@@ -87,22 +87,7 @@
     color: white;
     text-shadow: #050507 1px 1px;
 }
-/* .carousel-indicators-cs {
-    width: 50px;
-    position: absolute;
-    right: 100px;
-    bottom: -50px;
-    left: 0;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin-right: 15%;
-    margin-bottom: 1rem;
-    margin-left: 15%;
-    list-style: none;
-  }
-   */
+
 /* Main Banner Section Ends*/
 
 /* Our Activities Section */
@@ -119,48 +104,6 @@
     font-size: 14px;
     font-weight: 400;
 }
-
-.owl_wrapper{
-    width: 100vw;
-    overflow: hidden;
-  }
-  .owl_content{padding-left: 12%;}
-  .owl_wrapper .owl-item{
-    opacity: 0;
-    transform: scale(0.6);
-    -ms-transform: scale(0.6);
-    transition: all .2s;
-    -webkit-transform: all .2s;
-    z-index: 1;
-  }
-  .owl_wrapper .active{opacity: 0.5;}
-  .owl_wrapper .active.middle_besideright{
-    transform: scale(0.6, 0.8);
-    opacity: 0.8;
-    margin: 0 -0.5% 0 -1.5%;
-    z-index: 2;
-    clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0 90%);
-  }
-  .owl_wrapper .active.middle_besideleft{transform:scale(0.6,0.8); opacity: 0.8;
-    margin: 0 -1.5% 0 -0.5%;
-    z-index: 2;
-    clip-path: polygon(0% 0%, 100% 10%, 100% 90%, 0 100%);}
-  .owl_wrapper .active.middle{
-    transform: scale(0.6);
-    opacity: 1;
-    z-index: 3;
-  }
-  .owl_wrapper .active.next_to_mid{transform: scale(0.7, 1);
-    opacity: 0.8;
-    margin: 0 0 0 -0.7%;
-    z-index: 2;
-    clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0 90%);}
-  .owl_wrapper .active.prev_to_mid{transform:scale(0.7,1); opacity: 0.8;
-    margin: 0 -0.7% 0 0;
-    z-index: 2;
-    clip-path: polygon(0% 0%, 100% 10%, 100% 90%, 0 100%);}
-  
-  
   
   /*===== Navigation =====*/
   .owl_wrapper .prev, .owl_wrapper .next{
@@ -258,13 +201,6 @@
     transition-delay: 0s;
 }
 
-@media (max-width:576px) {
-    .about-us-img{
-        width: 100vw;
-        height: 400px;
-    }
-}
-
 /* About Us Section Ends */
 
 
@@ -288,12 +224,6 @@
 }
 .exp-tech-first-sec{
     display: flexbox;
-}
-
-@media (max-width:576px) {
-    .exp-tech-img{
-        width: 100vw;
-    }
 }
 
 /* Progress Bars Section */
@@ -344,13 +274,6 @@
 }
 .exp-tech-img-hvr-mg-2{
     margin-left: -50px;
-}
-
-@media (max-width:576px) {
-    .exp-tech-img-hvr-mg{
-        margin-top: 20px;
-        margin-left: 100px;
-    }
 }
 
 /* Footer Section */
@@ -450,7 +373,8 @@ font-weight: 300;
 }
 
 
-/* Copy Right Section*/
+/* Copy Right Section */
+
 .footer-cpright p{
     padding-top: 15px;
     color: white;
@@ -466,4 +390,52 @@ font-weight: 300;
     font-size: large;
     letter-spacing: 1px;
     text-align: center;
+}
+
+/* Media Quiries */
+
+@media (max-width:450px) {
+    .about-us-img{
+        width: 100vw;
+        height: 400px;
+    }
+    .exp-tech-img{
+        width: 100vw;
+    }
+    .exp-tech-img-hvr-mg{
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+}
+@media (max-width:810px) {
+    .exp-tech-img{
+        width: 100vw;
+        height: auto;
+    }
+    .about-us-img{
+        width: 100vw;
+        height: auto;
+    }
+    .pb-cs-mg{
+        margin-left: 250px;
+        margin-top: 40px;
+    }
+    .exp-tech-img-hvr-mg{
+        margin-top: 20px;
+        margin-left: 300px;
+    }
+    .ft-logo{
+        margin-left: 310px;
+    }
+    .ft-cstlinks-ml{
+        margin-left: 200px;
+    }
+    .ft-address{
+        margin-left: 260px;
+    }
+    .ft-telephone{
+        margin-top: 5px;
+        margin-left: 250px;
+    }
+
 }
