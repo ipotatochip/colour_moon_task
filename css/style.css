@@ -187,7 +187,6 @@
     transform: scale(1);
 }
 .item {
-    width:300px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -195,6 +194,8 @@
 }
 .item img{
     padding: 10px;
+    width: 650px;
+    height: 850px;
 }
 
 
